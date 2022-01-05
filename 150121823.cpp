@@ -18,7 +18,7 @@ void tree_delete(Node *);
 void tree_balance(Node *, std::vector<int> &);
 int tree_search(Node *, int &, int &);
 void tree_print_infix(Node *);
-void tree_print(Node *, void (*)(Node *));
+void tree_print(Node *, void (*function)(Node *));
 int tree_get_depth_level(Node *);
 int tree_get_nodes_at_depth_level(Node *, int, int);
 bool tree_is_valid(std::vector<int> &);
